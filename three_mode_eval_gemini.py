@@ -377,9 +377,9 @@ if __name__ == "__main__":
 
     # Gemini Setup (using your existing keychain)
     keychain = [
-        "AIzaSyAbE7CCYlf2RmmmEZlYQT_XSYe9ug-X_ck",
-        "AIzaSyCRFr8Vkc6MfnX271fIWv9l-ccIsCUn9xw",
-        "AIzaSyCR_iYod-77Fyh08eJmCd_01nlnfrxPUwo"
+        os.environ['GEMINI_API_KEY1'],
+        os.environ['GEMINI_API_KEY2'],
+        os.environ['GEMINI_API_KEY3']"
     ]
 
     gemini_api_key = keychain[args.k]
