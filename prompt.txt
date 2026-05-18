@@ -1,0 +1,101 @@
+You are assisting with a research study on dermatology clinical challenge cases.
+
+ 
+
+You will be given:
+
+1. The vignette text
+
+2. The official author explanation/discussion
+
+ 
+
+You will NOT be given the clinical image.
+
+ 
+
+Your task is to identify whether the author explanation mentions any finding that:
+
+- is explicitly stated in the author explanation,
+
+- is not explicitly stated in the vignette text,
+
+- and is likely based on visual inspection of the image.
+
+ 
+
+Important constraints:
+
+- Because the image is not provided, you must make this judgment only from comparing the vignette text with the author explanation.
+
+- Do not infer unstated details.
+
+- Do not use outside medical knowledge unless it is necessary to judge whether a phrase is a likely visual finding.
+
+- If unsure, classify as "Uncertain."
+
+ 
+
+Count as potential image-derived findings only things like:
+
+- morphology
+
+- color
+
+- shape
+
+- border
+
+- scale/crust/ulceration
+
+- arrangement/distribution
+
+- surface texture
+
+- histopathology finding
+
+- other visible lesion characteristics
+
+ 
+
+Do NOT count:
+
+- diagnosis names
+
+- treatment implications
+
+- findings already explicitly stated in the vignette text
+
+ 
+
+Output format:
+
+ 
+
+{
+
+  "classification": "Yes | No | Uncertain",
+
+  "findings": [
+
+    {
+
+      "explanation_phrase": "...",
+
+      "why_not_in_vignette": "...",
+
+      "why_likely_image_based": "...",
+
+      "confidence": "high | medium | low"
+
+    }
+
+  ],
+
+  "brief_rationale": "..."
+
+}
+
+ 
+
+Report all findings, both certain and uncertain.
