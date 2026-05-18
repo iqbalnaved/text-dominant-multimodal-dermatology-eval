@@ -100,7 +100,7 @@ text-dominant-multimodal-dermatology-eval/
 ```bash
 git clone https://github.com/iqbalnaved/text-dominant-multimodal-dermatology-eval.git
 cd text-dominant-multimodal-dermatology-eval
-pip install openai google-generativeai pandas numpy scikit-learn matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 Set API keys:
