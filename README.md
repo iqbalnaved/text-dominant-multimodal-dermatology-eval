@@ -2,7 +2,7 @@
 
 **Mohammad Iqbal Nouyed**, L. E. Keplinger, H. Akhter, E. Shue, D. Adjeroh, M. S. Kolodney, G. Hu
 
-*Journal of the American Academy of Dermatology* — under review
+*Journal of the American Academy of Dermatology* — Accepted (5/29/2026)
 
 ---
 
